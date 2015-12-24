@@ -1,0 +1,11 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+  <div class="progressbar_wrapper">
+    <div class="progressbar" data-progress="<?= $this->cp_progress ?>" data-goal="<?= $this->cp_goal ?>" data-formatted="<?= $this->cp_formatted; ?>">
+      <span class="progress_text"></span>
+    </div>
+  </div>
+
+<?php $this->endblock(); ?>
+

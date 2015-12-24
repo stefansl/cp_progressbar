@@ -1,0 +1,28 @@
+@bgColor: #fff;
+@barColor: lightskyblue;
+
+.progressbar_wrapper {
+  width            : 100%;
+  background-color : @bgColor;
+  border           : 1px solid fade(@bgColor, 0.4);
+
+  .progressbar {
+    background-color   : @barColor;
+    height             : 20px;
+    padding            : 10px;
+    text-align         : right;
+    font-size          : 0.8em;
+    line-height        : 20px;
+    width              : 0;
+    -webkit-transition : width 800ms ease;
+    -o-transition      : width 800ms ease;
+    transition         : width 800ms ease;
+  }
+
+  .progress_text {
+    position : absolute;
+    display  : block;
+    left     : 2em;
+  }
+
+}

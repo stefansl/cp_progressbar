@@ -1,0 +1,37 @@
+{
+  "name": "stefansl/cp_progressbar",
+  "description": "Frontend module for Contao to generate an animated responsive progress bar",
+  "keywords": ["contao", "extension", "usability", "progress", "bar"],
+  "type": "contao-module",
+  "homepage": "https://github.com/stefansl/cp_progressbar",
+  "license": "LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Stefan Schulz-Lauterbach",
+      "homepage":"http://clickpress.de",
+      "role":"Developer"
+    }
+  ],
+  "support":{
+    "issues":"https://github.com/stefansl/cp_progressbar/issues",
+    "source":"https://github.com/stefansl/cp_progressbar/"
+  },
+  "require":{
+    "php":">=5.3",
+    "contao/core":">=2.8,<4",
+    "contao-community-alliance/composer-installer":"*"
+  },
+  "autoload":{
+    "classmap":[""]
+  },
+  "replace":{
+    "contao-legacy/cp_progressbar":"self.version"
+  },
+  "extra":{
+    "contao":{
+      "sources":{
+        "":"system/modules/cp_progressbar"
+      }
+    }
+  }
+}
