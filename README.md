@@ -1,4 +1,4 @@
-[![Version](http://img.shields.io/packagist/v/stefansl/cp_progressbar.svg?style=flat-square)](http://packagist.com/packages/stefansl/cp_progressbar)  [![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg?style=flat-square)](https://raw.githubusercontent.com/stefansl/cp_progressbar/master/LICENSE)
+[![Version](https://img.shields.io/packagist/v/stefansl/cp_progressbar.svg?style=flat-square)](https://packagist.org/packages/stefansl/cp_progressbar)  [![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg?style=flat-square)](https://raw.githubusercontent.com/stefansl/cp_progressbar/master/LICENSE)
 
 cp_progressbar
 ================
