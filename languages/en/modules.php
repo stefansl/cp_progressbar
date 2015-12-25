@@ -1,5 +1,5 @@
 <?php
-/* Coded with Slayer at max volume
+/* Coded with Slayer at max volume */
 
 /**
  * Contao Open Source CMS
