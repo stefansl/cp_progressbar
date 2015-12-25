@@ -17,3 +17,4 @@
  * Front end modules
  */
 $GLOBALS['TL_LANG']['FMD']['cp_progressbar'] = array('Progressbar', 'Show frontend users an animated progress bar');
+$GLOBALS['TL_LANG']['progressbar'] = 'Progressbar';

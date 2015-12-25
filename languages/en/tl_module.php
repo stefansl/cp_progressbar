@@ -18,5 +18,5 @@
  */
 $GLOBALS['TL_LANG']['tl_module']['cp_progress'] = array('Progress value', 'Please enter a value for progress');
 $GLOBALS['TL_LANG']['tl_module']['cp_goal'] = array('Goal value', 'Please enter a value for goal');
-$GLOBALS['TL_LANG']['tl_module']['cp_formatted'] = array('Embedding value in text', 'If you want to embed your progress value into a text type e.g. "We\'ve reached %S Euro"');
+$GLOBALS['TL_LANG']['tl_module']['cp_formatted'] = array('Embed the value', 'If you want to embed your progress value into a text, type e.g. "We\'ve reached %S Euro"');
 
