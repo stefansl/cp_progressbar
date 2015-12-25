@@ -1,7 +1,7 @@
 {
   "name": "stefansl/cp_progressbar",
   "description": "Frontend module for Contao to generate an animated responsive progress bar",
-  "keywords": ["contao", "extension", "usability", "progress", "bar"],
+  "keywords": ["contao", "extension", "progressbar", "progress", "bar", "usability", "frontend"],
   "type": "contao-module",
   "homepage": "https://github.com/stefansl/cp_progressbar",
   "license": "LGPL-3.0+",
