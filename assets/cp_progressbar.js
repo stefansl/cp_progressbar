@@ -1,3 +1,8 @@
+/*! cp_progressbar.js - v1.2.0
+    2015 CLICKPRESS Internetagentur, clickpress.de,
+    https://github.com/stefansl/cp_progressbar +
+    Licensed LGPL
+*/
 ( function ( $ ) {
 
     'use strict';
