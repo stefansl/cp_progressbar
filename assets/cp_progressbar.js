@@ -61,18 +61,22 @@
 
     $( document ).ready( function () {
 
-        var progressbar = $( '.progressbar_wrapper' );
+        $( '.progressbar_wrapper' ).each(function(){
 
-        // Calc member status
-        if ( progressbar.isSet() ) {
+            var bar = $(this);
 
-            progressbar.animateMemberBar();
+            if ( bar.isSet() ) {
 
-            $( window ).on( 'scroll resize', function () {
-                progressbar.animateMemberBar();
-            } );
+                bar.animateMemberBar();
 
-        }
+                $( window ).on( 'scroll resize', function () {
+                    bar.animateMemberBar();
+                } );
+
+            }
+        });
+
+
 
     } );
 
