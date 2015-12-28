@@ -1,8 +1,8 @@
 /*! cp_progressbar.js - v1.2.0
-    2015 CLICKPRESS Internetagentur, clickpress.de,
-    https://github.com/stefansl/cp_progressbar +
-    Licensed LGPL
-*/
+ 2015 CLICKPRESS Internetagentur, clickpress.de,
+ https://github.com/stefansl/cp_progressbar +
+ Licensed LGPL
+ */
 ( function ( $ ) {
 
     'use strict';
@@ -61,23 +61,17 @@
 
     $( document ).ready( function () {
 
-        $( '.progressbar_wrapper' ).each(function(){
-
-            var bar = $(this);
+        $( '.progressbar_wrapper' ).each( function () {
+            var bar = $( this );
 
             if ( bar.isSet() ) {
-
                 bar.animateMemberBar();
 
                 $( window ).on( 'scroll resize', function () {
                     bar.animateMemberBar();
                 } );
-
             }
-        });
-
-
-
+        } );
     } );
 
 }( jQuery ) );
