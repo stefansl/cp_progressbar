@@ -59,7 +59,7 @@
     };
 
 
-    $( document ).ready( function () {
+    $( window ).on( 'load', function () {
 
         $( '.progressbar_wrapper' ).each( function () {
             var bar = $( this );
